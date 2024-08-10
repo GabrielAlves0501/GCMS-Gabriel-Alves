@@ -16,4 +16,9 @@ public class HomeController {
 	public @ResponseBody String greetingGabriel() {
 	return "Pratica 2 GCMS Gabriel Alves!";
 	}
+	
+	@RequestMapping("/pratica3")
+	public @ResponseBody String greetingPratica() {
+	return "Mudança no original";
+	}
 }
