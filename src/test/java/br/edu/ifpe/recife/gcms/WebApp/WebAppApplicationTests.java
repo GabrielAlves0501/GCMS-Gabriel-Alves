@@ -29,7 +29,7 @@ class WebAppApplicationTests {
 	public void shouldReturnGabrielMessage() throws Exception {
 		this.mockMvc.perform(get("/gabriel"))
 
-				.andDo(print()).andExpect(status().isOk()).andExpect(content().string(containsString("Pratica 2 GCMS Gabriel Alves!")))
+				.andDo(print()).andExpect(status().isOk()).andExpect(content().string(containsString("Pratica 2 GCMS Gabriel Alves!")));
 
 	}
 }
