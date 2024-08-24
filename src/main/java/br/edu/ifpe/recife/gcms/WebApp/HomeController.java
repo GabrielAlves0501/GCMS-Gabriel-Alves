@@ -21,4 +21,9 @@ public class HomeController {
 	public @ResponseBody String greetingPratica() {
 	return "Mudança no original";
 	}
+
+	@RequestMapping("/pratica3")
+	public @ResponseBody String greetingPratica() {
+	return "Mudança no original";
+	}
 }
